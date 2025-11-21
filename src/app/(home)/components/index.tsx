@@ -23,6 +23,10 @@ const components: Component[] = [
     path: 'avatar',
   },
   {
+    title: 'Bar Chart',
+    path: 'bar',
+  },
+  {
     title: 'Button',
     path: 'button',
   },
@@ -61,6 +65,10 @@ const components: Component[] = [
   {
     title: 'Pressable Feedback',
     path: 'pressable-feedback',
+  },
+  {
+    title: 'Radar Chart',
+    path: 'radar',
   },
   {
     title: 'Radio Group',

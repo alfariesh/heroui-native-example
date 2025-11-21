@@ -67,6 +67,7 @@ export default function Layout() {
           options={{ title: 'Accordion' }}
         />
         <Stack.Screen name="components/avatar" options={{ title: 'Avatar' }} />
+        <Stack.Screen name="components/bar" options={{ title: 'Bar Chart' }} />
         <Stack.Screen name="components/button" options={{ title: 'Button' }} />
         <Stack.Screen name="components/card" options={{ title: 'Card' }} />
         <Stack.Screen
@@ -102,6 +103,10 @@ export default function Layout() {
         <Stack.Screen
           name="components/popover-native-modal"
           options={{ title: 'Popover Native Modal', presentation: 'formSheet' }}
+        />
+        <Stack.Screen
+          name="components/radar"
+          options={{ title: 'Radar Chart' }}
         />
         <Stack.Screen
           name="components/radio-group"
